@@ -1,0 +1,272 @@
+@import url(font.css);
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: "Montserrat";
+    background: #151515;
+    color: #ffffff;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+ul
+{
+    list-style: none;
+}
+
+.container 
+{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav
+{
+    background: #282828;
+}
+
+.nav__content
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logolink
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.menu
+{
+    padding-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu__link
+{
+    font-weight: 700;
+    font-style: 20px;
+    color: #ffffff;
+    display: block;
+    padding: 20px 15px;
+}
+
+.search
+{
+    padding-right: 25px;
+}
+
+.header__content
+{
+    background-image: url(../IMG/Header.png);
+    min-height: 635px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header__title
+{
+    font-size: 100px;
+    padding-bottom: 38px;
+    font-family: "Prosto1";
+}
+
+.header__btn
+{
+    background: #ffffff;
+    color: #171718;
+    font-size: 20px;
+    padding: 13px 13px;
+    border-radius: 10px;
+}
+
+.main__content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main_text1
+{
+    font-size: 22px;
+    font-weight: 500;
+    max-width: 490px;
+}
+
+.main_text2
+{
+    font-size: 20px;
+    font-weight: 700;
+    max-width: 333px;
+}
+
+.end
+{
+    text-align: end;
+}
+
+.start
+{
+    text-align: start;
+}
+
+.P_naush
+{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.f1
+{
+    max-width: 552px;
+    width: 100%;
+}
+
+.V_naush
+{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.f2
+{
+    max-width: 457px;
+    width: 100%;
+}
+
+.T_naush
+{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.f3
+{
+    max-width: 268px;
+    width: 100%;
+}
+
+.cherta
+{
+    width: 61px;
+    height: 1px;
+    background-color: #C4C4C4;
+    margin: 0 13px;
+}
+
+.product__content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 79px;
+    margin-bottom: 55px;
+}
+
+.prod__card
+{
+    max-width: 255px;
+    width: 100%;
+    gap: 30;
+    padding: 15px 47px;
+    border-radius: 6px;
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__name 
+{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    color: #000;
+    text-align: center;
+}
+
+.card__img 
+{
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.card__price
+{
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.card__btn
+{
+    background: #000;
+}
+
+.btn__link
+{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 7px 57px;
+}
+
+.footer
+{
+    background: #282828;
+    padding: 81px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__content
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_link
+{
+    font-weight: 700;
+    font-style: 20px;
+    color: #ffffff;
+    display: block;
+}
+
+.visa
+{
+    margin-right: 29px;
+}

@@ -1,0 +1,94 @@
+@media (max-width: 1200px) 
+{
+    .container 
+    {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 992px) 
+{
+    .container 
+    {
+        max-width: 720px;
+    }
+
+    .main_text1
+    {
+        font-size: 18px;
+        font-weight: 400;
+        max-width: 340px;
+        text-align: center;
+        margin-left: 170px;
+        order: 1;
+    }
+
+    .f1
+    {
+        margin-left: 100px;
+    }
+
+    .f2
+    {
+        margin-left: 120px;
+    }
+
+    .T_naush
+    {
+        flex-direction: column;
+        margin-left: 190px;
+    }
+
+    .cherta
+    {
+        visibility: hidden;
+    }
+
+    .main_text2
+    {
+        font-size: 18px;
+        font-weight: 400;
+        max-width: 300px;
+        text-align: center;
+    }
+
+    .prod__card
+    {
+        max-width: 250px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 768px) 
+{
+    .container 
+    {
+        max-width: 540px;
+    }
+
+    .f1, .f2, .f3
+    {
+        max-width: 350px;
+        max-height: 400px;
+    }
+
+    .P_naush > .main_text1
+    {
+        margin-right: 90px;
+    }
+
+    .V_naush > .main_text1
+    {
+        margin-right: 90px;
+    }
+    
+    .main_text2
+    {
+        margin-right: 130px;
+    }
+}
+
+@media (max-width: 576)
+{
+    
+}
